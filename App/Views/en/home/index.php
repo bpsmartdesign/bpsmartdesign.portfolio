@@ -1,10 +1,12 @@
 <section class="one">
 	<div class="vertical_align">
-		<h1 class="topo">Hi, <br>
-		I'm [Bpd_237], <br>
-		Web Developper</h1>
-		<span class="description">Fullstack Web Developer</span> <br>
-		<a href="Contact" class="contact_me">Contact Me</a>
+		<h1 class="topo">
+			<span class="title--in">Hi,</span> <br>
+			<span class="title--in"></span> am bpsmartdesign, <br>
+			<span class="title--in"></span>Fullstack web & mobile developer
+		</h1>
+		<span class="description">08 years of experience and well-rendered services</span> <br>
+		<a href="contact" class="contact_me">Contact Me</a>
 	</div>
 </section>
 <section class="two">

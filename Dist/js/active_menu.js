@@ -12,6 +12,11 @@
 			links[i].classList.remove('active');
 		}
 		links[2].classList.add('active');
+
+		document.querySelectorAll('.fill-value').forEach(fv => {
+			let w = fv.getAttribute('data-value')
+			fv.style.width = w + '%'
+		})
 	} else if(/Worked/i.test(window.location.href)) {
 		for(var i = 0; i < links.length; i++) {
 			links[i].classList.remove('active');
@@ -28,5 +33,4 @@
 		}
 		links[0].classList.add('active');
 	}
-
 })();

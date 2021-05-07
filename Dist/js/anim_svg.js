@@ -3,7 +3,6 @@
 	var pathEls = document.querySelectorAll('.anim_svg path');
 	for (var i = 0; i < pathEls.length; i++) {
 	  var pathEl = pathEls[i];
-	  console.log('Hahahah')
 	  var offset = anime.setDashoffset(pathEl);
 	  pathEl.setAttribute('stroke-dashoffset', offset);
 	  anime({
@@ -17,5 +16,4 @@
 	    autoplay: true
 	  });
 	}
-
 })();

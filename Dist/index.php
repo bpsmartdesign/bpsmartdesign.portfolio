@@ -12,7 +12,7 @@
 			$_SESSION['bpd_237_portfolio.lang'] = $__tmp[0];
 		} else {
 
-			$_SESSION['bpd_237_portfolio.lang'] = 'fr';
+			$_SESSION['bpd_237_portfolio.lang'] = 'en';
 		}
 	}
 
@@ -21,8 +21,23 @@
 	}
 
 	///////////////////////////////////////////////////////////////////// C H A N G E M E N T   D E   L A N G U E
-	if(!empty($_POST)) {
+	if(isset($_POST['lang'])) {
 		$_SESSION['bpd_237_portfolio.lang'] = $_POST['lang'];
+	}
+
+	if (isset($_POST['send_mail'])) {
+		
+    $to = 'bpsmartdesign@hotmail.com, biyapaul45@gmail.com';
+    $subject = 'Contact from your portfolio website '. $_POST['subject'];
+		$from = $_POST['mail'];
+
+    $headers = "From: $from" . "\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+		$message = $_POST['message'];
+
+		mail($to, $subject, $message, $headers);
 	}
 
 	///////////////////////////////////////////////////////////////////// P E T I T   S Y S T E M E   D E   R O U T I N G
@@ -35,4 +50,3 @@
 
 	$controller = new $controller(); // Appel de la page correspondante
 	$controller->$action(); // Appel de la page correspondante
-?>

@@ -1,0 +1,260 @@
+	@media only screen and (min-width:720px) and (max-width:980px) {
+
+		*, *:before, *:after {
+			font-size: 1.5vw;
+		}
+		section {
+			height: 88vh;
+		}
+		footer {
+			 position: relative;
+			top: -7vh;
+		}
+		#plie {
+			display: none}
+		#plie:before {
+			display: none}
+		#page {
+			height: 90vh;
+		}
+		.left {
+			width: 100vw;
+			height: 6vh;
+			display: flex;
+			position: relative;
+			top: 0;
+		}
+		.logo {
+			width: 5vw;	height: 6vh;
+			margin: 0 auto;
+			position: relative;
+		}
+		.logo a {
+			width: 5vw;
+			height: 6vh;
+		}
+		.menu_ico {
+			line-height: 6vh;
+		}
+		.menu ul {
+			display: flex;
+			width: 30vw;
+			height: 6vh;
+			margin-left: 35vw;
+			justify-content: space-between;
+		}
+		.menu ul li, .menu ul li a, .menu ul li a i {
+			width: 6vw;
+			height: 6.2vh;
+		}
+		.social ul {
+			height: 6vh;
+			position: absolute;
+			bottom: -.5vh;
+			margin-left: 88vw;
+			display: flex;
+		}
+		.social ul li {
+			width: 2.5vw;
+			height: 6vh;
+			padding: 1.5vh 0;
+		}
+		.ico {
+			font-size: 1.25vw;
+			line-height: 2vh;
+		}
+		.right {
+			width: 100vw;
+			height: 95vh;
+		}
+
+		.me_coding, .me_drawing, .me_gaming, .me_gaming_foot {
+			width: 100%;
+			height: 12.5vh;
+			transform-origin: 0 0;
+		}
+		.me_coding:before, .me_drawing:before, .me_gaming:before, .me_gaming_goot:before {
+			position: relative;
+			top: -2vh;
+			height: 16vh;
+		}
+		.me_coding:after, .me_drawing:after, .me_gaming:after, .me_gaming_goot:after {
+			position: relative;
+			top: -13vh;
+			height: 9vh;
+		}
+
+		.illustrations {
+			top: 43.5vh;
+		}
+		.illustrations > div {
+			height: 12.5vh}
+	}
+
+	@media only screen and (min-width:400px) and (max-width:719px) {
+
+		*, *:before, *:after {
+			font-size: 2vw;
+			line-height: 3.5vw;
+		}
+		h1 {
+			font-size: 4vw;
+			line-height: 0vw;
+		}
+		footer {
+			position: absolute;
+			top: 94vh}
+		#plie {
+			display: none}
+		#plie:before {
+			display: none}
+		#page {
+			overflow: hidden;
+			height: 100vh;
+		}
+		.right {
+			overflow-x: hidden;
+			position: absolute;
+			height: 88vh;
+			width: 100vw;
+			padding: 0;
+			margin: 0;
+			top: 6vh;
+		}
+		.one > div{margin-top: 2vh;
+		}
+		.one, .two {
+			width: 100%;
+			height: 55vh;
+		}
+		.left {
+			width: 100vw;
+			height: 6vh;
+			display: flex;
+		}
+		.logo {
+			width: 5vw;	height: 6vh;
+			margin: 0 auto;
+			position: relative;
+		}
+		.logo a {
+			width: 5vw;
+			height: 6vh;
+		}
+		.menu_ico {
+			line-height: 6vh;
+		}
+		.menu ul {
+			display: flex;
+			width: 30vw;
+			height: 6vh;
+			margin-left: 35vw;
+			justify-content: space-between;
+		}
+		.menu ul li, .menu ul li a, .menu ul li a i {
+			width: 6vw;
+			height: 6.2vh;
+		}
+		.social ul {
+			height: 6vh;
+			position: absolute;
+			bottom: -.5vh;
+			margin-left: 88vw;
+			display: flex;
+		}
+		.social ul li {
+			width: 2.5vw;
+			height: 6vh;
+			padding: 1.5vh 0;
+		}
+		.ico {
+			font-size: 1.25vw;
+			line-height: 2vh;
+		}
+
+		.before_me {
+			width: 90%;
+			top: 68vh;
+			left: 5%;
+		}
+		.me_coding, .me_drawing, .me_gaming, .me_gaming_foot {
+			width: 100%;
+			height: 12vh;
+			transform-origin: 0 0;
+		}
+		.me_drawing {
+			transform: rotate(2deg);
+			height: 16.5vh;
+		}
+		.me_coding:before, .me_drawing:before, .me_gaming:before, .me_gaming_goot:before {
+			position: relative;
+			top: -2vh;
+			height: 16vh;
+		}
+		.me_coding:after, .me_drawing:after, .me_gaming:after, .me_gaming_goot:after {
+			position: relative;
+			top: -13vh;
+			height: 9vh;
+		}
+
+		.illustrations {
+			top: 95vh;
+		}
+		.illustrations > div {
+			height: 12.5vh}
+
+		.form_contact {
+			position: relative;
+			top: -5vh;
+		}
+		.form_contact > div {
+			display: inline-block;
+			vertical-align: bottom;
+		}
+		.form_contact input, .form_contact textarea {
+			font-size: 2vw}
+		.form_contact > div:first-child {
+			display: inline-block;
+			width: 38%;
+		}
+		.form_contact > div:first-child input {
+			width: 48%;
+		}
+		.form_contact > div:nth-child(2) {
+			width: 32%;
+		}
+		.form_contact > div:nth-child(3) {
+			width: 70%;
+		}
+		.form_contact > input[type="submit"] {
+			margin-left: 2%;
+			margin-top: 15.8vh;
+			height: 5vh;
+			padding: 1%;
+		}
+		.form_contact .cvDownload {
+			margin-left: 2%;
+			margin-top: 15.8vh;
+			height: 5vh;
+			padding: 1%;
+		}
+		.form_intro, .form_subject{width: 50%;
+		}
+		.form_content textarea {
+			min-width: 100%;
+			max-width: 100%;
+		}
+
+		.more_contact_info {
+			width: 38%;
+			padding: 0 1%;
+			position: absolute;
+			right: 31%;
+			top: 75vh;
+		}
+		.my_map {
+			width: 100%;
+			height: 48vh;
+		}
+
+	}

@@ -1,10 +1,12 @@
 <section class="one">
 	<div class="vertical_align">
-		<h1 class="topo">Hola, <br>
-		Soy [Bpd_237], <br>
-		Desarrollador web</h1>
-		<span class="description">Desarrollador Fullstack Web & diseñador</span><br>
-		<a href="Contact" class="contact_me">Contáctame</a>
+		<h1 class="topo">
+			<span class="title--in">Hola,</span> <br>
+			<span class="title--in"></span> Soy bpsmartdesign, <br>
+			<span class="title--in"></span>Desarrollador fullstac web y móvilk
+		</h1>
+		<span class="description">08 años de experiencia y servicios bien prestados.</span><br>
+		<a href="contact" class="contact_me">Contáctame</a>
 	</div>
 </section>
 <section class="two">
