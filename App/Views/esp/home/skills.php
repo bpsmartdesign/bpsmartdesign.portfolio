@@ -138,13 +138,13 @@
 						</div>
 					</div>
 					<div class="skill">
-						<span class="txt-value"><span class="tag orange">Reloj de tecnología de TI</span> google, github, youtube, dev.io, dribbble, ...</span>
+						<span class="txt-value"><span class="tag orange">Reloj de tecnología de TI</span>  github, youtube, dribbble, ...</span>
 						<div class="fill-value-container bottom">
 							<div class="fill-value" data-value="85"></div>
 						</div>
 					</div>
 					<div class="skill">
-						<span class="txt-value"><span class="tag red">Personalidad</span> Mente vivaz, curiosa, rigurosa e intuitiva, ...</span>
+						<span class="txt-value"><span class="tag red">Personalidad</span> Mente vivaz, curiosa, rigurosa, ...</span>
 						<div class="fill-value-container bottom">
 							<div class="fill-value" data-value="93"></div>
 						</div>

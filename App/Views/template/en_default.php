@@ -65,11 +65,6 @@
 			</nav>
 			</div>
 			<div class="right">
-				<div class="anim_bg">
-					<div id="one" class="tourner"><img src="/Data/ico/bg.png" alt=""></div>
-					<div id="two" class="tourner"><img src="/Data/ico/bg.png" alt=""></div>
-					<div id="three" class="tourner"><img src="/Data/ico/bg.png" alt=""></div>
-				</div>
 				<?= $content; ?>
 			</div>
 			<footer>

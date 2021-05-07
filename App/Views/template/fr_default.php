@@ -7,14 +7,12 @@
 	<meta charset="utf-8" /> <!-- Encodage des carractères de la page -->
 	<meta name="robots" content="noarchive">
 	<meta name="description" content="<?= App::getInstance()->desc_page; ?>">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="BIYA Paul (bpsmartdesign)" />
 	<meta name="keywords" content="" />
 
 	<link rel="icon" href="/Data/ico/logo.png" /> <!-- Icone de la page -->
 
-	<link href="/Dist/css/style.css" type="text/css" rel="stylesheet">
+	<link href="/Dist/css/style.css" type="text/css" rel="stylesheet" media="all">
 
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBqyQAVh8DJgCEeikupo8HqHW9N2n7qp4"></script>
 	<script type="text/javascript">
@@ -305,11 +303,6 @@
 			</nav>
 		</div>
 		<div class="right">
-			<div class="anim_bg">
-				<div id="one" class="tourner"><img src="/Data/ico/bg.png" alt=""></div>
-				<div id="two" class="tourner"><img src="/Data/ico/bg.png" alt=""></div>
-				<div id="three" class="tourner"><img src="/Data/ico/bg.png" alt=""></div>
-			</div>
 			<?= $content; ?>
 		</div>
 		<footer>
