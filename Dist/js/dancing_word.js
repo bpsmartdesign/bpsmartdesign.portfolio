@@ -36,5 +36,5 @@
 		}
 	}
 
-	window.setInterval(init, 5000);
+	window.setInterval(init, 3000);
 })();

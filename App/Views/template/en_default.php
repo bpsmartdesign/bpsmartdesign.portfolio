@@ -32,7 +32,7 @@
 				position: new google.maps.LatLng(3.864240, 11.4888),
 				map: map,
 				icon: 'Data/ico/marker.png',
-				title: 'BPD_237 Office'
+				title: '#bpsmartdesign Office'
 			});
 				}
 		</script>
@@ -41,34 +41,54 @@
 	<body>
 		<div id="page">
 			<div class="left fade-in-left">
-			<div class="logo">
-				<a href="Index">
-					<img src="/Data/ico/logo.png" alt="LOGO">
-				</a>
+				<div class="logo">
+					<a href="Index">
+						<img src="/Data/ico/logo.png" alt="LOGO">
+					</a>
+				</div>
+				<nav class="mobile-menu">
+					<div class="lines">
+						<span class="mm-l"></span>
+						<span class="mm-l"></span>
+						<span class="mm-l"></span>
+					</div>
+				</nav>
+				<nav class="menu">
+					<ul>
+						<li><a href="index"><i class="fa menu_ico">&#xf015;</i><i class="supp">Home</i></a></li>
+						<li><a href="about_me"><i class="fa menu_ico">&#xf129;</i><i class="supp">Me</i></a></li>
+						<li><a href="skills"><i class="fa menu_ico">&#xf19d;</i><i class="supp">Skills</i></a></li>
+						<li><a href="worked"><i class="fa menu_ico">&#xf121;</i><i class="supp">Works</i></a></li>
+						<li><a href="contact"><i class="fa menu_ico">&#xf0e0;</i><i class="supp">Contact</i></a></li>
+					</ul>
+				</nav>
+				<nav class="social">
+					<ul>
+						<li><a href="https://www.fb.me/bpsmartdesign" target="blank"><i class="fa ico">&#xf09a;</i></a></li>
+						<li><a href="https://www.linkedin.com/in/bpsmartdesign/" target="blank"><i class="fa ico">&#xf0e1;</i></a></li>
+						<li><a href="https://twitter.com/bpsmartdesign" target="blank"><i class="fa ico">&#xf099;</i></a></li>
+						<li><a href="https://github.com/bpsmartdesign" target="blank"><i class="fa ico">&#xf09b;</i></a></li>
+					</ul>
+				</nav>
 			</div>
-			<nav class="menu">
-				<ul>
-					<li><a href="index"><i class="fa menu_ico">&#xf015;</i><i class="supp">Home</i></a></li>
-					<li><a href="about_me"><i class="fa menu_ico">&#xf129;</i><i class="supp">Me</i></a></li>
-					<li><a href="skills"><i class="fa menu_ico">&#xf19d;</i><i class="supp">Skills</i></a></li>
-					<li><a href="worked"><i class="fa menu_ico">&#xf121;</i><i class="supp">Works</i></a></li>
-					<li><a href="contact"><i class="fa menu_ico">&#xf0e0;</i><i class="supp">Contact</i></a></li>
+
+			<div class="v-menu-container">
+				<span class="close-mm">X</span>
+				<ul class="v-menu">
+					<li><a href="index">Home</a></li>
+					<li><a href="about_me">Me</a></li>
+					<li><a href="skills">Skills</a></li>
+					<li><a href="worked">Works</a></li>
+					<li><a href="contact">Contact</a></li>
 				</ul>
-			</nav>
-			<nav class="social">
-				<ul>
-					<li><a href="https://www.fb.me/bpsmartdesign" target="blank"><i class="fa ico">&#xf09a;</i></a></li>
-					<li><a href="https://www.linkedin.com/in/bpsmartdesign/" target="blank"><i class="fa ico">&#xf0e1;</i></a></li>
-					<li><a href="https://twitter.com/bpsmartdesign" target="blank"><i class="fa ico">&#xf099;</i></a></li>
-					<li><a href="https://github.com/bpsmartdesign" target="blank"><i class="fa ico">&#xf09b;</i></a></li>
-				</ul>
-			</nav>
 			</div>
+
 			<div class="right">
 				<?= $content; ?>
 			</div>
 			<footer>
-				<p>copyright &copy; 2014 - 2021 All right reserved ! by #bpsmartdesign</p>
+				<p class="cpy-small">copyright &copy; 2014 - 2021</p>
+				<p class="cpy">copyright &copy; 2014 - 2021 All right reserved ! by #bpsmartdesign</p>
 				<div>
 					<form method="post">
 						<input type="hidden" name="lang" value="lang">

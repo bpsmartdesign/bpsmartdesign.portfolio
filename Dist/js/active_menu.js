@@ -33,4 +33,32 @@
 		}
 		links[0].classList.add('active');
 	}
+
+	// mobile menu
+	const line = document.querySelector('.lines');
+	const close = document.querySelector('.close-mm');
+	const mMenu = document.querySelector('.v-menu-container')
+	let showMobileMenu = false
+
+	function setMenu(e) {
+		e.preventDefault()
+		e.stopImmediatePropagation()
+		e.stopPropagation()
+
+		showMobileMenu = !showMobileMenu
+
+		if (showMobileMenu) {
+			mMenu.classList.add('show-mobile-menu', 'fade-in-down')
+		} else {
+			mMenu.classList.remove('fade-in-down')
+			mMenu.classList.add('fade-out-down')
+			setTimeout(() => {
+				mMenu.classList.remove('show-mobile-menu')
+				mMenu.classList.remove('fade-out-down')
+			}, 450);
+		}		
+	}
+
+	line.addEventListener('click', setMenu)
+	close.addEventListener('click', setMenu)
 })();
