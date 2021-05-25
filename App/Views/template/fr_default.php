@@ -7,6 +7,8 @@
 	<meta charset="utf-8" /> <!-- Encodage des carractères de la page -->
 	<meta name="robots" content="noarchive">
 	<meta name="description" content="<?= App::getInstance()->desc_page; ?>">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="BIYA Paul (bpsmartdesign)" />
 	<meta name="keywords" content="" />
 
@@ -270,7 +272,7 @@
 				position: new google.maps.LatLng(3.864240, 11.4888),
 				map: map,
 				icon: 'Data/ico/marker.png',
-				title: '#bpsmartdesign'
+				title: '#bpsmartdesign Office'
 			});
 		}
 	</script>
@@ -284,6 +286,13 @@
 					<img src="/Data/ico/logo.png" alt="LOGO">
 				</a>
 			</div>
+			<nav class="mobile-menu">
+				<div class="lines">
+					<span class="mm-l"></span>
+					<span class="mm-l"></span>
+					<span class="mm-l"></span>
+				</div>
+			</nav>
 			<nav class="menu">
 				<ul>
 					<li><a href="index"><i class="fa menu_ico">&#xf015;</i><i class="supp">Accueil</i></a></li>
@@ -302,11 +311,24 @@
 				</ul>
 			</nav>
 		</div>
+
+		<div class="v-menu-container">
+			<span class="close-mm">X</span>
+			<ul class="v-menu">
+				<li><a href="index">Accueil</a></li>
+				<li><a href="about_me">Moi</a></li>
+				<li><a href="skills">Qualité</a></li>
+				<li><a href="worked">Travaux</a></li>
+				<li><a href="contact">Contact</a></li>
+			</ul>
+		</div>
+
 		<div class="right">
 			<?= $content; ?>
 		</div>
 		<footer>
-			<p>Copyright &copy; 2014 - 2021 Tous droits reservé ! par #bpsmartdesign</p>
+			<p class="cpy-small">copyright &copy; 2014 - 2021</p>
+			<p class="cpy">Copyright &copy; 2014 - 2021 Tous droits reservé ! par #bpsmartdesign</p>
 			<div>
 				<form method="post">
 					<input type="hidden" name="lang" value="lang">

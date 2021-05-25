@@ -33,7 +33,7 @@
 					<img src="Data/ico/me.jpg" alt="My_pic" />
 				</span>
 			</div>
-			<span class="pic_text">Toujours livrer un travail de haute qualité!</span><br>
+			<span class="pic_text">Toujours livrer un travail de haute qualite!</span><br>
 		</div>
 		<div class="after_me"><span class="circle"></span></div>
 		<div class="more_me">

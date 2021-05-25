@@ -2,7 +2,7 @@
 	<div class="vertical_align">
 		<h1 class="topo">
 			<span class="title--in">Hola,</span> <br>
-			<span class="title--in"></span> Soy bpsmartdesign, <br>
+			<span class="title--in"></span> soy Biya Paul, <br>
 			<span class="title--in"></span>Desarrollador fullstac web y móvilk
 		</h1>
 		<span class="description">08 años de experiencia y servicios bien prestados.</span><br>

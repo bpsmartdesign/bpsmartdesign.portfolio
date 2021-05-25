@@ -2,7 +2,7 @@
 	<div class="vertical_align">
 		<h1 class="topo">
 			<span class="title--in">Hi,</span> <br>
-			<span class="title--in"></span> am bpsmartdesign, <br>
+			<span class="title--in"></span> am Biya Paul, <br>
 			<span class="title--in"></span>Fullstack web & mobile developer
 		</h1>
 		<span class="description">08 years of experience and well-rendered services</span> <br>

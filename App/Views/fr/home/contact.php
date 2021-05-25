@@ -13,7 +13,7 @@
 				<textarea required name="message">Votre Message</textarea>
 			</div>
 			<input type="submit" name="send_mail" value="Envoyer">
-			<a href="https://bpsmartdesign.mayem-solutions.com/Data/cv_fr.pdf" class="cvDownload">Mi CV</a>
+			<a href="https://bpsmartdesign.mayem-solutions.com/Data/cv_fr.pdf" class="cvDownload">Mon CV</a>
 		</form>
 	</div>
 </section>
